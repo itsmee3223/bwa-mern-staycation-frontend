@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { createBrowserHistory } from "history";
+import { Router, Route, Switch } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import LandingPage from "pages/LandingPage";
+import DetailsPage from "pages/DetailsPage";
+import Checkout from "pages/Checkout";
+import NotFound from "pages/404";
+
+import "assets/scss/style.scss";
+
+const history = createBrowserHistory({
+  basename: process.env.PUBLIC_URL,
+});
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router history={history} basename={process.env.PUBLIC_URL}>
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/properties/:id" component={DetailsPage} />
+          <Route path="/checkout" component={Checkout} />
+          <Route path="*" component={NotFound} />
+        </Switch>
+      </Router>
+      <ToastContainer />
     </div>
   );
 }
