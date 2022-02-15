@@ -4,7 +4,6 @@ import "./index.scss";
 
 export default function Number(props) {
   const { value, placeholder, name, min, max, prefix, suffix } = props;
-
   const [InputValue, setInputValue] = useState(`${prefix}${value}${suffix}`);
 
   const onChange = (e) => {
@@ -14,7 +13,6 @@ export default function Number(props) {
 
     const patternNumeric = new RegExp("[0-9]*");
     const isNumeric = patternNumeric.test(value);
-
     if (isNumeric && +value <= max && +value >= min) {
       props.onChange({
         target: {
@@ -22,7 +20,7 @@ export default function Number(props) {
           value: +value,
         },
       });
-      setInputValue(`${prefix}${value}${suffix}`);
+      setInputValue(`${prefix}${value}${value <= 1 ? suffix : " nights"}`);
     }
   };
 
