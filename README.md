@@ -20,7 +20,7 @@ This is the frontend web, build with React, and deployed with <a href='https://a
 
 ## 📸 Screenshot
 
-<img src='https://res.cloudinary.com/dniq91ewn/image/upload/v1672034178/BWA%20Staycation/Home_Page_xn6xla.png'  width='45%'> &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://res.cloudinary.com/dniq91ewn/image/upload/v1672034175/BWA%20Staycation/Details_Page_ktdl2i.png'  width='45%'>
+<img src='https://res.cloudinary.com/dniq91ewn/image/upload/v1672035866/BWA%20Staycation/Home_Page-min_lnnybf.png'  width='45%'> &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://res.cloudinary.com/dniq91ewn/image/upload/v1672035865/BWA%20Staycation/Details_Page-min_cj0py1.png'  width='45%'>
 
 
 <img src='https://res.cloudinary.com/dniq91ewn/image/upload/v1672034173/BWA%20Staycation/Booking_Page_1_qfa720.png'  width='45%'> &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://res.cloudinary.com/dniq91ewn/image/upload/v1672034173/BWA%20Staycation/Booking_Page_1.1_f83n8d.png'  width='45%'>
