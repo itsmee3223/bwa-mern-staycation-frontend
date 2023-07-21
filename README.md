@@ -12,9 +12,9 @@ This is the frontend web, build with React, and deployed with <a href='https://a
 ---
 
 
-## 🚀 Link to [Backend](https://github.com/itsmee3223/bwa-mern-staycation-backend), [Deploy Backend](https://staycation-backend.up.railway.app)
+## 🚀 Link to [Backend](https://github.com/itsmee3223/bwa-mern-staycation-backend), [Deploy Backend](https://mern-staycation-backend.onrender.com)
 
-## ⚛️ Link to [Deploy React](https://staycation-frontend-ramanda.netlify.app/)
+## ⚛️ Link to [Deploy React](https://ramanda-mern-staycation.netlify.app/)
 
 ## 🏫 Link to [Course](https://class.buildwithangga.com/kelas/full-stack-javascript-developer-website-travel?thumbnail=UaLl9ulabm.34&main_leads=searchresult)
 
